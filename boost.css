@@ -1,0 +1,927 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* === DISPLAY START =========================================================================================== */
+.block{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+.inline{
+    display: inline;
+}
+.flex{
+    display: flex;
+}
+.inline-flex{
+    display: inline-flex;
+}
+.table{
+    display: table;
+}
+.inline-table{
+    display: inline-table;
+}
+.grid{
+    display: grid;
+}
+.inline-grid{
+    display: inline-grid;
+}
+.contents{
+    display: contents;
+}
+.list-item{
+    display: list-item;
+}
+.hidden{
+    display: none;
+}
+/* ============================================================================================ DISPLAY END ==== */
+
+
+/* === FLOAT START ============================================================================================= */
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.float-none{
+    float: none;
+}
+/* ============================================================================================== FLOAT END ==== */
+
+
+/* === CLEAR START ============================================================================================= */
+.clear-left{
+    clear: left;
+}
+.clear-right{
+    clear: right;
+}
+.clear-both{
+    clear: both;
+}
+.clear-none{
+    clear: none;
+}
+/* ============================================================================================== CLEAR END ==== */
+
+
+/* === ISOLATE START =========================================================================================== */
+.isolate{
+    isolation: isolate;
+}
+.isolation-auto{
+    isolation: auto;
+}
+/* ============================================================================================ ISOLATE END ==== */
+
+
+/* === OBJECT-FIT START ======================================================================================== */
+.object-contain{
+    object-fit: contain;
+}
+.object-cover{
+    object-fit: cover;
+}
+.object-fill{
+    object-fit: fill;
+}
+.object-none{
+    object-fit: none;
+}
+.object-scale-down{
+    object-fit: scale-down;
+}
+/* ========================================================================================= OBJECT-FIT END ==== */
+/* === OBJECT-POSITION START =================================================================================== */
+.object-bottom{
+    object-position: bottom;
+}
+.object-center{
+    object-position: center;
+}
+.object-left{
+    object-position: left;
+}
+.object-left-bottom{
+    object-position: left bottom;
+}
+.object-left-top{
+    object-position: left top;
+}
+.object-right{
+    object-position: right;
+}
+.object-right-bottom{
+    object-position: right bottom;
+}
+.object-right-top{
+    object-position: right top;
+}
+.object-top{
+    object-position: top;
+}
+/* ==================================================================================== OBJECT-POSITION END ==== */
+
+
+/* === OVERFLOW START ========================================================================================== */
+.overflow-auto{
+    overflow: auto;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.overflow-clip{
+    overflow: clip;
+}
+.overflow-visible{
+    overflow: visible;
+}
+.overflow-scroll{
+    overflow: scroll;
+}
+.overflow-x-auto{
+    overflow-x: auto;
+}
+.overflow-y-auto{
+    overflow-y: auto;
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+.overflow-y-hidden{
+    overflow-y: hidden;
+}
+.overflow-x-clip{
+    overflow-x: clip;
+}
+.overflow-y-clip{
+    overflow-y: clip;
+}
+.overflow-x-visible{
+    overflow-x: visible;
+}
+.overflow-y-visible{
+    overflow-y: visible;
+}
+.overflow-x-scroll{
+    overflow-x: scroll;
+}
+.overflow-y-scroll{
+    overflow-y: scroll;
+}
+/* =========================================================================================== OVERFLOW END ==== */
+
+
+/* === POSITION START ========================================================================================== */
+.static{
+    position: static;
+}
+.fixed{
+    position: fixed;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.sticky{
+    position: sticky;
+}
+/* =========================================================================================== POSITION END ==== */
+
+
+/* === VISIBILITY START ======================================================================================== */
+.visible{
+    visibility: visible;
+}
+.invisible{
+    visibility: hidden;
+}
+.collapse{
+    visibility: collapse;
+}
+/* ========================================================================================= VISIBILITY END ==== */
+
+
+/* === Z-INDEX START =========================================================================================== */
+.z-0{
+    z-index: 0;
+}
+.z-10{
+    z-index: 10;
+}
+.z-20{
+    z-index: 20;
+}
+.z-30{
+    z-index: 30;
+}
+.z-40{
+    z-index: 40;
+}
+.z-50{
+    z-index: 50;
+}
+.z-auto{
+    z-index: auto;
+}
+/* ============================================================================================ Z-INDEX END ==== */
+
+/* === FLEX START ============================================================================================== */
+.flex-1{
+    flex: 1 1 0%;
+}
+.flex-auto{
+    flex: 1 1 auto;
+}
+.flex-initial{
+    flex: 0 1 auto;
+}
+.flex-none{
+    flex: none;
+}
+/* =============================================================================================== FLEX END ==== */
+/* === FLEX-DIRECTION START ==================================================================================== */
+.flex-row{
+    flex-direction: row;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-col-reverse{
+    flex-direction: column-reverse;
+}
+/* ===================================================================================== FLEX-DIRECTION END ==== */
+/* === FLEX-WRAP START ========================================================================================= */
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+/* ========================================================================================== FLEX-WRAP END ==== */
+/* === FLEX-GROW START ========================================================================================= */
+.grow{
+    flex-grow: 1;
+}
+.grow-0{
+    flex-grow: 0;
+}
+/* ========================================================================================== FLEX-GROW END ==== */
+/* === FLEX-SHRINK START ======================================================================================= */
+.shrink{
+    flex-shrink: 1;
+}
+.shrink-0{
+    flex-shrink: 0;
+}
+/* ======================================================================================== FLEX-SHRINK END ==== */
+
+
+/* === TEXT-TRANSFORM START ==================================================================================== */
+.capitalize{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+/* ===================================================================================== TEXT-TRANSFORM END ==== */
+/* === TEXT-ALIGN START ======================================================================================== */
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+/* ========================================================================================= TEXT-ALIGN END ==== */
+
+
+/* === BORDER-RADIUS START ===================================================================================== */
+.rounded-none{
+    border-radius: 0px;
+}
+.rounded-sm{
+    border-radius: 2px;
+}
+.rounded{
+    border-radius: 4px;
+}
+.rounded-md{
+    border-radius: 6px;
+}
+.rounded-lg{
+    border-radius: 8px;
+}
+.rounded-xl{
+    border-radius: 12px;
+}
+.rounded-2xl{
+    border-radius: 16px;
+}
+.rounded-3xl{
+    border-radius: 24px;
+}
+.rounded-full{
+    border-radius: 99px;
+}
+/* ====================================================================================== BORDER-RADIUS END ==== */
+
+
+/* === BORDER-WIDTH START ====================================================================================== */
+.border-0{
+    border-width: 0px;
+}
+.border{
+    border-width: 1px;
+}
+.border-2{
+    border-width: 2px;
+}
+.border-4{
+    border-width: 4px;
+}
+.border-8{
+    border-width: 8px;
+}
+/* LEFT ===================== */
+.border-l-0{
+    border-left-width: 0px;
+}
+.border-l{
+    border-left-width: 1px;
+}
+.border-l-2{
+    border-left-width: 2px;
+}
+.border-l-4{
+    border-left-width: 4px;
+}
+.border-l-8{
+    border-left-width: 8px;
+}
+/* RIGHT ==================== */
+.border-r-0{
+    border-right-width: 0px;
+}
+.border-r{
+    border-right-width: 1px;
+}
+.border-r-2{
+    border-right-width: 2px;
+}
+.border-r-4{
+    border-right-width: 4px;
+}
+.border-r-8{
+    border-right-width: 8px;
+}
+/* TOP ====================== */
+.border-t-0{
+    border-top-width: 0px;
+}
+.border-t{
+    border-top-width: 1px;
+}
+.border-t-2{
+    border-top-width: 2px;
+}
+.border-t-4{
+    border-top-width: 4px;
+}
+.border-t-8{
+    border-top-width: 8px;
+}
+/* BOTTOM =================== */
+.border-b-0{
+    border-bottom-width: 0px;
+}
+.border-b{
+    border-bottom-width: 1px;
+}
+.border-b-2{
+    border-bottom-width: 2px;
+}
+.border-b-4{
+    border-bottom-width: 4px;
+}
+.border-b-8{
+    border-bottom-width: 8px;
+}
+/* ======================================================================================= BORDER-WIDTH END ==== */
+/* === BORDER-STYLE START ====================================================================================== */
+.border-solid{
+    border-style: solid;
+}
+.border-dashed{
+    border-style: dashed;
+}
+.border-dotted{
+    border-style: dotted;
+}
+.border-double{
+    border-style: double;
+}
+.border-hidden{
+    border-style: hidden;
+}
+.border-none{
+    border-style: none;
+}
+/* ======================================================================================= BORDER-STYLE END ==== */
+
+
+/* === OUTLINE-STYLE START ===================================================================================== */
+.outline{
+    outline-style: solid;
+}
+.outline-dotted{
+    outline-style: dotted;
+}
+.outline-dashed{
+    outline-style: dashed;
+}
+.outline-double{
+    outline-style: double;
+}
+/* ======================================================================================= OUTLINE-STYLE END === */
+/* === OUTLINE-OFFSET START ==================================================================================== */
+.outline-offset-0{
+    outline-offset: 0px;
+}
+.outline-offset-1{
+    outline-offset: 1px;
+}
+.outline-offset-2{
+    outline-offset: 2px;
+}
+.outline-offset-4{
+    outline-offset: 4px;
+}
+.outline-offset-8{
+    outline-offset: 8px;
+}
+/* ====================================================================================== OUTLINE-OFFSET END === */
+/* === OUTLINE-WIDTH START ===================================================================================== */
+.outline-0{
+    outline-width: 0px;
+}
+.outline-1{
+    outline-width: 1px;
+}
+.outline-2{
+    outline-width: 2px;
+}
+.outline-4{
+    outline-width: 4px;
+}
+.outline-8{
+    outline-width: 8px;
+}
+/* ======================================================================================= OUTLINE-WIDTH END === */
+
+
+/* === BOX-SHADOW START ======================================================================================== */
+.shadow-sm{
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+.shadow{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+.shadow-md{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.shadow-xl{
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+.shadow-2xl{
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+.shadow-inner{
+    box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+}
+.shadow-none{
+    box-shadow: 0 0 #0000;
+}
+/* ========================================================================================== BOX-SHADOW END === */
+
+
+/* === OPACITY START =========================================================================================== */
+.opacity-0{
+    opacity: 0;
+}
+.opacity-5{
+    opacity: 0.05;
+}
+.opacity-10{
+    opacity: 0.1;
+}
+.opacity-20{
+    opacity: 0.2;
+}
+.opacity-25{
+    opacity: 0.25;
+}
+.opacity-30{
+    opacity: 0.3;
+}
+.opacity-40{
+    opacity: 0.4;
+}
+.opacity-50{
+    opacity: 0.5;
+}
+.opacity-60{
+    opacity: 0.6;
+}
+.opacity-70{
+    opacity: 0.7;
+}
+.opacity-75{
+    opacity: 0.75;
+}
+.opacity-80{
+    opacity: 0.8;
+}
+.opacity-90{
+    opacity: 0.9;
+}
+.opacity-100{
+    opacity: 1;
+}
+/* ============================================================================================= OPACITY END === */
+/* === BLUR START ============================================================================================== */
+.blur-none{
+    filter: blur(0);
+}
+.blur-sm{
+    filter: blur(4px);
+}
+.blur{
+    filter: blur(8px);
+}
+.blur-md{
+    filter: blur(12px);
+}
+.blur-lg{
+    filter: blur(16px);
+}
+.blur-xl{
+    filter: blur(24px);
+}
+.blur-2xl{
+    filter: blur(40px);
+}
+.blur-3xl{
+    filter: blur(64px);
+}
+/* ================================================================================================ BLUR END === */
+/* === DROP-SHADOW START ======================================================================================= */
+.drop-shadow-sm{
+    filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+}
+.drop-shadow{
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+}
+.drop-shadow-md{
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+.drop-shadow-lg{
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+.drop-shadow-xl{
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+}
+.drop-shadow-2xl{
+    filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+.drop-shadow-none{
+    filter: drop-shadow(0 0 #0000);
+}
+/* ========================================================================================= DROP-SHADOW END === */
+/* === BACKDROP-BLUR START ===================================================================================== */
+.backdrop-blur-none{
+    backdrop-filter: blur(0);
+}
+.backdrop-blur-sm{
+    backdrop-filter: blur(4px);
+}
+.backdrop-blur{
+    backdrop-filter: blur(8px);
+}
+.backdrop-blur-md{
+    backdrop-filter: blur(12px);
+}
+.backdrop-blur-lg{
+    backdrop-filter: blur(16px);
+}
+.backdrop-blur-xl{
+    backdrop-filter: blur(24px);
+}
+.backdrop-blur-2xl{
+    backdrop-filter: blur(40px);
+}
+.backdrop-blur-3xl{
+    backdrop-filter: blur(64px);
+}
+/* ======================================================================================= BACKDROP-BLUR END === */
+
+
+/* === BORDER-COLLAPSE START =================================================================================== */
+.border-collapse{
+    border-collapse: collapse;
+}
+.border-separate{
+    border-collapse: separate;
+}
+/* ===================================================================================== BORDER-COLLAPSE END === */
+/* === TABLE-LAYOUT START ====================================================================================== */
+.table-auto{
+    table-layout: auto;
+}
+.table-fixed{
+    table-layout: fixed;
+}
+/* ======================================================================================== TABLE-LAYOUT END === */
+/* === CAPTION-SIDES START ===================================================================================== */
+.caption-top{
+    caption-side: top;
+}
+.caption-bottom{
+    caption-side: bottom;
+}
+/* ======================================================================================= CAPTION-SIDES END === */
+
+
+/* === TRANSFORM-SCALE START =================================================================================== */
+.scale-0{
+    transform: scale(0);
+}
+.scale-x-0{
+    transform: scaleX(0);
+}
+.scale-y-0{
+    transform: scaleY(0);
+}
+.scale-50{
+    transform: scale(.5);
+}
+.scale-x-50{
+    transform: scaleX(.5);
+}
+.scale-y-50{
+    transform: scaleY(.5);
+}
+.scale-75{
+    transform: scale(.75);
+}
+.scale-x-75{
+    transform: scaleX(.75);
+}
+.scale-y-75{
+    transform: scaleY(.75);
+}
+.scale-90{
+    transform: scale(.9);
+}
+.scale-x-90{
+    transform: scaleX(.9);
+}
+.scale-y-90{
+    transform: scaleY(.9);
+}
+.scale-95{
+    transform: scale(.95);
+}
+.scale-x-95{
+    transform: scaleX(.95);
+}
+.scale-y-95{
+    transform: scaleY(.95);
+}
+.scale-100{
+    transform: scale(1);
+}
+.scale-x-100{
+    transform: scaleX(1);
+}
+.scale-y-100{
+    transform: scaleY(1);
+}
+.scale-105{
+    transform: scale(1.05);
+}
+.scale-x-105{
+    transform: scaleX(1.05);
+}
+.scale-y-105{
+    transform: scaleY(1.05);
+}
+.scale-110{
+    transform: scale(1.1);
+}
+.scale-x-110{
+    transform: scaleX(1.1);
+}
+.scale-y-110{
+    transform: scaleY(1.1);
+}
+.scale-125{
+    transform: scale(1.25);
+}
+.scale-x-125{
+    transform: scaleX(1.25);
+}
+.scale-y-125{
+    transform: scaleY(1.25);
+}
+.scale-150{
+    transform: scale(1.5);
+}
+.scale-x-150{
+    transform: scaleX(1.5);
+}
+.scale-y-150{
+    transform: scaleY(1.5);
+}
+/* ===================================================================================== TRANSFORM-SCALE END === */
+
+
+/* === CURSORS START =========================================================================================== */
+.cursor-auto{
+    cursor: auto;
+}
+.cursor-default{
+    cursor: default;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.cursor-wait{
+    cursor: wait;
+}
+.cursor-text{
+    cursor: text;
+}
+.cursor-move{
+    cursor: move;
+}
+.cursor-help{
+    cursor: help;
+}
+.cursor-not-allowed{
+    cursor: not-allowed;
+}
+.cursor-none{
+    cursor: none;
+}
+.cursor-context-menu{
+    cursor: context-menu;
+}
+.cursor-progress{
+    cursor: progress;
+}
+.cursor-cell{
+    cursor: cell;
+}
+.cursor-crosshair{
+    cursor: crosshair;
+}
+.cursor-vertical-text{
+    cursor: vertical-text;
+}
+.cursor-alias{
+    cursor: alias;
+}
+.cursor-copy{
+    cursor: copy;
+}
+.cursor-no-drop{
+    cursor: no-drop;
+}
+.cursor-grab{
+    cursor: grab;
+}
+.cursor-grabbing{
+    cursor: grabbing;
+}
+.cursor-all-scroll{
+    cursor: all-scroll;
+}
+.cursor-col-resize{
+    cursor: col-resize;
+}
+.cursor-row-resize{
+    cursor: row-resize;
+}
+.cursor-n-resize{
+    cursor: n-resize;
+}
+.cursor-e-resize{
+    cursor: e-resize;
+}
+.cursor-s-resize{
+    cursor: s-resize;
+}
+.cursor-w-resize{
+    cursor: w-resize;
+}
+.cursor-ne-resize{
+    cursor: ne-resize;
+}
+.cursor-nw-resize{
+    cursor: nw-resize;
+}
+.cursor-se-resize{
+    cursor: se-resize;
+}
+.cursor-sw-resize{
+    cursor: sw-resize;
+}
+.cursor-ew-resize{
+    cursor: ew-resize;
+}
+.cursor-ns-resize{
+    cursor: ns-resize;
+}
+.cursor-nesw-resize{
+    cursor: nesw-resize;
+}
+.cursor-nwse-resize{
+    cursor: nwse-resize;
+}
+.cursor-zoom-in{
+    cursor: zoom-in;
+}
+.cursor-zoom-out{
+    cursor: zoom-out;
+}
+/* ============================================================================================= CURSORS END === */
+
+
+/* === RESIZE START ============================================================================================ */
+.resize-none{
+    resize: none;
+}
+.resize-y{
+    resize: vertical;
+}
+.resize-x{
+    resize: horizontal;
+}
+.resize{
+    resize: both;
+}
+/* ============================================================================================== RESIZE END === */
+
+
+/* === SCROLL-BEHAVIOUR START ================================================================================== */
+.scroll-auto{
+    scroll-behavior: auto;
+}
+.scroll-smooth{
+    scroll-behavior: smooth;
+}
+/* ==================================================================================== SCROLL-BEHAVIOUR END === */
+
+
+/* === USER-SELECT START ======================================================================================= */
+.select-none{
+    user-select: none;
+}
+.select-text{
+    user-select: text;
+}
+.select-all{
+    user-select: all;
+}
+.select-auto{
+    user-select: auto;
+}
+/* ========================================================================================= USER-SELECT END === */
